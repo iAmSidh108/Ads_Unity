@@ -349,7 +349,6 @@ GameObject:
   m_Component:
   - component: {fileID: 865689546}
   - component: {fileID: 865689545}
-  - component: {fileID: 865689547}
   m_Layer: 0
   m_Name: Ads
   m_TagString: Untagged
@@ -372,6 +371,8 @@ MonoBehaviour:
   _androidGameId: 5162096
   _iOSGameId: 5162097
   _testMode: 1
+  _androidAdUnitId: Interstitial_Android
+  _iOsAdUnitId: Interstitial_iOS
 --- !u!4 &865689546
 Transform:
   m_ObjectHideFlags: 0
@@ -387,20 +388,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &865689547
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 865689544}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30d9ffb790254e643bb5ba4ab87429df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _androidAdUnitId: Interstitial_Android
-  _iOsAdUnitId: Interstitial_iOS
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,7 +625,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1235636892
 MonoBehaviour:
   m_ObjectHideFlags: 0
